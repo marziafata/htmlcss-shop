@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: lightgrey;
+    height: 100vh;
+    padding: 100px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-right: 370px;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    display: inline-block;
+    margin-left: 6px;
+
+}
+
+.box:first-child {
+    background-image: url(ross1.jpg);
+}
+
+.box:nth-child(2) {
+    background-image: url(ross3.jpg);
+}
+
+.box:last-child {
+    background-image: url(ross5.jpg);
+}
+
+.box .promo {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+
+.box .love {
+    color: white;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.love:hover {
+    opacity: 1;
+}
+
+.box .promo50 {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
